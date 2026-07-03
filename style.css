@@ -14,7 +14,7 @@ body{
 a {
     text-decoration: none;
     animation: colorchange;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 .header {
@@ -25,7 +25,7 @@ a {
     justify-content: space-around;
     width: auto;
     animation: colorchange;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     /*position: sticky ;
     top: 0px;*/
@@ -48,6 +48,7 @@ a {
     }
 }
 .abo {
+   
     color: rgb(133, 241, 97);
     font-weight: 400px;
     font-family: cursive;
@@ -60,12 +61,17 @@ a {
     font-size: 20px;
 }
 .cop {
+    background-color: hsl(180, 20%, 2%);
+    width: 100%;
     color: aqua;
-    display: inline-block;
+    display: block;
     position: fixed;
     bottom: 0px;
 
 }
 .coptop {
-    border: blue solid 1px;
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    border: rgb(111, 245, 1) solid 2px;
 }

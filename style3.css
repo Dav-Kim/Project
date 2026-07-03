@@ -8,6 +8,7 @@ body{
     border-radius: 7px;
 }
 .git:hover {
+    
     background-color:rgb(227, 196, 155);
     animation: 5s;
     animation-timing-function: ease;
