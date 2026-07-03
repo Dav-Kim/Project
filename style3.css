@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+.git{
+    color: green;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.git:hover {
+    background-color:rgb(227, 196, 155);
+    animation: 5s;
+    animation-timing-function: ease;
+    box-shadow: red 3px 3px 5px;
+    transform:translatex(5px)
+}

@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    /*justify-content: center;
+    align-items: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+}
+a {
+    text-decoration: none;
+    animation: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.header {
+    color: orange;
+    box-shadow: 0px 0px 10px rgb(6, 199, 141);
+    border: rgb(6, 199, 141) solid 2px;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    animation: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /*position: sticky ;
+    top: 0px;*/
+}
+@keyframes colorchange{
+    0%{
+        color: orange;
+    }
+    25%{
+        color: rgb(191, 227, 15);
+    }
+    50%{
+        color: rgb(32, 227, 14);
+    }
+    75%{
+        color: rgb(208, 226, 3);
+    }
+    100%{
+        color: orange;
+    }
+}
+.abo {
+    color: rgb(133, 241, 97);
+    font-weight: 400px;
+    font-family: cursive;
+    font-size: 40px;
+    font-style: normal;
+    text-decoration: underline;
+}
+.me{
+    color: aqua;
+    font-size: 20px;
+}
+.cop {
+    color: aqua;
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+
+}
+.coptop {
+    border: blue solid 1px;
+}
